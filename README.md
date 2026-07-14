@@ -87,7 +87,7 @@ The Bottleneck Problem: If the furnace batch capacity is too small, the oven bak
 
 The Optimization Solution: By systematically testing different batch capacities against the maximum stage lead times, the simulation locates the exact operational "sweet spot." This allows the plant to run the furnace at maximum thermal efficiency while keeping material waiting times as low as possible.
 
-### The Variance Insight
+### 2.Cumulative Lead Time & Risk Analysis
 By plotting the cumulative lead time across each manufacturing stage, the analysis reveals two critical behaviors on the progression chart:
 * **The Heat Treatment "Step" (Mean Shift):** At the Heat Treatment stage, the lines do not fan out. Instead, they take a sharp, uniform upward jump. This represents the fixed batch-accumulation delay—every wheel must wait for the furnace to fill, shifting the average lead time upward without adding random chaos.
 * **The Machining "Fan-Out" (Variance Divergence):** The true "fan-out" (where the lines rapidly split apart and uncertainty balloons) begins at **Stage 5: Machining**. Because Machining is the primary system bottleneck—highly sensitive to both machine breakdowns and sequence-dependent setup penalties—minor delays here snowball. This creates a wide spread of outcomes between "lucky" runs with high uptime and "unlucky" runs with frequent changeovers.
