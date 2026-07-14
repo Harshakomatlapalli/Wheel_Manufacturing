@@ -56,6 +56,7 @@ Casting: Considered
  │  9. Packing   │ ───────────► [ Shipped ] │
  └───────────────┘             (System Output)
 
+```
 #** Operational Optimization & Risk Analysis**
 To improve factory operations, two optimization studies were conducted:
 
